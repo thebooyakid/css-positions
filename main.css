@@ -1,0 +1,49 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.static {
+    position: static;
+    background: lightseagreen;
+    width: 230px;
+}
+
+
+.relative {
+    position: relative;
+    left: 200px;
+    background:lightcoral;
+    width: 250px;
+}
+
+.fixed {
+    position:fixed;
+    bottom:20px;
+    left:100px;
+    background: cornflowerblue;
+}
+
+.relative1 {
+    position: relative;
+    width: 50vw;
+    height: 300px;
+    border: 3px solid;
+}
+
+.absolute1 {
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    width: 90px;
+    height: 90px;
+    border: 3px dashed;
+    padding: 50px;
+    text-align: center;
+}
+
+.sticky {
+    position: sticky;
+    top: 20px;
+    background-color: lightgray;
+    border: 2px solid gray;
+}
